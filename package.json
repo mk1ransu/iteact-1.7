@@ -1,0 +1,22 @@
+{
+  "name": "1.7",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod",
+    "login": "vercel login",
+    "logout": "vercel logout"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lil-gui": "^0.17.0",
+    "three": "^0.148.0",
+    "vercel": "^39.0.2"
+  }
+}
